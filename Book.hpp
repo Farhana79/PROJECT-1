@@ -72,7 +72,7 @@ public:
 	/**
   @post   : sets the digital flag to true
  */
-	void setDigital();
-	bool isDigital() ;
+	void setDigital(const bool digitallyAvailable );
+	bool isDigital() const;
 
 };
