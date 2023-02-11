@@ -41,7 +41,7 @@ public:
    @param  : the title of the Book
    @post   : sets the Book's title to the value of the parameter
  */
-	void setTitle(const string& title);
+	void setTitle(const string title)
 	/**
 	 @return : the title of the Book
   */
@@ -51,7 +51,7 @@ public:
 	@param  : the name of the author of the Book
 	@post   : sets the Book's author to the value of the parameter
   */
-	void setAuthor(const string& author);
+	void setAuthor(const string author)
 	
 	/**
 	  @return : the author of the Book
@@ -63,7 +63,7 @@ public:
    @pre    : page count > 0 - books cannot have a negative number of pages
    @post   : sets the page count to the value of the parameter
  */
-	void setPageCount(const int numPages);
+	void setPageCount(const int numPages)
 	/**
 	  @return : the page count
    */
@@ -72,7 +72,7 @@ public:
 	/**
   @post   : sets the digital flag to true
  */
-	void setDigital(const bool digitallyAvailable );
+	void setDigital(const);
 	bool isDigital() const;
 
 };
