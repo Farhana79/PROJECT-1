@@ -75,7 +75,7 @@ bool Book::isDigital() const
 /**
 	@param : the title of the Book
  */
-void Book::setTitle(const string title)
+void Book::setTitle(string title)
 {
 	this->title = title;
 	
@@ -85,7 +85,7 @@ void Book::setTitle(const string title)
 	@param : the author of the Book
  */
 
-void Book::setAuthor(const string author)
+void Book::setAuthor(string author)
 {
 	this->author = author;
 }
@@ -93,7 +93,7 @@ void Book::setAuthor(const string author)
 /**
 	@param : the number of pages in the Book
  */
-void Book::setPageCount(const int numPages)
+void Book::setPageCount(int numPages)
 {
 	this->pageCount = numPages;
 }
