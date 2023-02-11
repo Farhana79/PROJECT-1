@@ -3,8 +3,7 @@
 // Csci 235
 // project 1
 
-#ifndef BOOK_H
-#define BOOK_H
+
 #include<string>
 using namespace std;
 
