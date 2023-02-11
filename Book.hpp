@@ -63,11 +63,11 @@ public:
    @pre    : page count > 0 - books cannot have a negative number of pages
    @post   : sets the page count to the value of the parameter
  */
-	void setPageCount(int numPages);
+	void setPageCount(const int numPages);
 	/**
 	  @return : the page count
    */
-	int getPageCount();
+	int getPageCount() const; 
 
 	/**
   @post   : sets the digital flag to true
