@@ -45,7 +45,7 @@ public:
 	/**
 	 @return : the title of the Book
   */
-	string getTitle() const;
+	string getTitle();
 	
 	/**
 	@param  : the name of the author of the Book
@@ -56,7 +56,7 @@ public:
 	/**
 	  @return : the author of the Book
    */
-	string getAuthor() const;
+	string getAuthor();
 	
 	/**
    @param  : a positive integer page count
@@ -67,12 +67,12 @@ public:
 	/**
 	  @return : the page count
    */
-	int getPageCount() const; 
+	int getPageCount();
 
 	/**
   @post   : sets the digital flag to true
  */
 	void setDigital();
-	bool isDigital() const;
+	bool isDigital();
 
 };
