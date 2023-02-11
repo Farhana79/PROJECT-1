@@ -39,7 +39,7 @@ Book::Book(string title, string author, int numPages, bool digitallyAvailable)
 /**
 	@return : the title of the Book
  */
-string Book::getTitle()
+string Book::getTitle() const
 {
 	return title;
 	
@@ -48,7 +48,7 @@ string Book::getTitle()
 /**
 	@return : the author of the Book
  */
-string Book::getAuthor()
+string Book::getAuthor() const
 {
 	return author;
 	
@@ -57,7 +57,7 @@ string Book::getAuthor()
 /**
 	@return : the number of pages in the Book
  */
-int Book::getPageCount()
+int Book::getPageCount() const
 {
 	return pageCount;
 	
@@ -66,7 +66,7 @@ int Book::getPageCount()
 /**
 	@return : a flag indicating whether the Book is in digital form
  */
-bool Book::isDigital()
+bool Book::isDigital() const
 {
 	return digitallyAvailable;
 }
@@ -75,7 +75,7 @@ bool Book::isDigital()
 /**
 	@param : the title of the Book
  */
-void Book::setTitle(string title)
+void Book::setTitle(const string title)
 {
 	this->title = title;
 	
@@ -85,7 +85,7 @@ void Book::setTitle(string title)
 	@param : the author of the Book
  */
 
-void Book::setAuthor(string author)
+void Book::setAuthor(const string author)
 {
 	this->author = author;
 }
@@ -93,7 +93,7 @@ void Book::setAuthor(string author)
 /**
 	@param : the number of pages in the Book
  */
-void Book::setPageCount(int numPages)
+void Book::setPageCount(const int numPages)
 {
 	this->pageCount = numPages;
 }
@@ -101,7 +101,7 @@ void Book::setPageCount(int numPages)
 /**
 	@param : a flag indicating whether the Book is in digital form
  */
-void Book::setDigital()
+void Book::setDigital() const
 {
 	this->digitallyAvailable = true;
 }
